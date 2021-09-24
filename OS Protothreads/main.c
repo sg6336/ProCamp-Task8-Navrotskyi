@@ -1,14 +1,5 @@
 #include "pt-1.4/pt.h"
-
 #include <stdio.h>
-
-//struct pt { unsigned short lc; };
-//#define PT_THREAD(name_args)  char name_args
-//#define PT_BEGIN(pt)          switch(pt->lc) { case 0:
-//#define PT_WAIT_UNTIL(pt, c)  pt->lc = __LINE__; case __LINE__: \
-//                              if(!(c)) return 0
-//#define PT_END(pt)            } pt->lc = 0; return 2
-//#define PT_INIT(pt)           pt->lc = 0
 
 static int counter;
 static struct pt pt3;
